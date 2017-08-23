@@ -1,0 +1,17 @@
+{
+  "name": "skeleton-react-app",
+  "description": "a skeleton react app",
+  "main": "index.js",
+  "authors": [
+    "anthony cruz <anthonycruz34@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/adotcruz/skeleton-react-app",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

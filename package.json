@@ -1,0 +1,41 @@
+{
+  "name": "skeleton-react-app",
+  "version": "1.0.0",
+  "description": "a skeleton react app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adotcruz/skeleton-react-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adotcruz/skeleton-react-app/issues"
+  },
+  "homepage": "https://github.com/adotcruz/skeleton-react-app#readme",
+  "devDependencies": {
+    "react": "^15.6.1"
+  },
+  "dependencies": {
+    "browser-sync": "^2.18.13",
+    "browserify": "^14.4.0",
+    "consolidate": "^0.14.5",
+    "express": "^4.15.4",
+    "gulp": "^3.9.1",
+    "gulp-changed": "^3.1.0",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-live-server": "0.0.31",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "hogan.js": "^3.0.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "reactify": "^1.1.1",
+    "sass": "^1.0.0-beta.2",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
