@@ -1,0 +1,30 @@
+$default-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+$hover-box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
+$font-color: #95989A;
+
+
+.main-card{
+      box-shadow: $default-box-shadow;
+
+      &:hover{
+            box-shadow: $hover-box-shadow;
+      }
+
+      .img-circle {
+          border-radius: 50%;
+          width: 175px;
+          height: 175px;
+          object-fit: cover;
+      }
+
+      h2{
+            color: $font-color; 
+      }
+
+}
+
+
+.center-div{
+      margin: 0 auto;
+      width: 50%;
+}

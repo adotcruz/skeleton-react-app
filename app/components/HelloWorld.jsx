@@ -1,9 +1,13 @@
 var React = require('react');
+var UserCard = require('./userCard.jsx');
 
 class HelloWorld extends React.Component{
       render(){
             return(
-                  <h1>Hello World!</h1>
+                  <div className="container">
+                        <h1>Hello World!</h1>
+                        <UserCard />
+                  </div>
             )
       }
 }

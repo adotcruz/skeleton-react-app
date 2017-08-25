@@ -30,8 +30,13 @@ var gulp = require('gulp'),
 
 //watches changes on scss
   gulp.task('watch-scss', function() {
-    gulp.watch(SCSS_SRC, ['compile-scss']);
+    gulp.watch(SCSS_SRC, ['compile-scss', 'copy-css']);
   });
+
+  gulp.task('copy-css', () => {
+        gulp.src(['app/**/*.css'])
+       .pipe(gulp.dest('./.tmp'));
+ });
 
 //bundles jsx --> js
   gulp.task('bundle', ['watch-scss', 'copy'], function() {
@@ -48,6 +53,8 @@ var gulp = require('gulp'),
 //copy css to temp file so app.js has access to it
  gulp.task('copy', function(){
        gulp.src(['app/**/*.css'])
+       .pipe(gulp.dest('./.tmp'));
+       gulp.src(['app/**/*.jpeg'])
        .pipe(gulp.dest('./.tmp'));
  })
 

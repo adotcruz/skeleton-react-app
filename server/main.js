@@ -11,6 +11,7 @@ app.set('views', __dirname+'./../app');
 app.engine('html', engines.hogan); // tell Express to run .html files through Hogan
 app.set('view engine', 'html'); //register .html extension as template engine so we can render .html pages
 app.use(express.static(__dirname + './../.tmp'));
+app.use(express.static(__dirname + './../app/assets'));
 
 
 
