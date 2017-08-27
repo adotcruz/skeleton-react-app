@@ -10,6 +10,10 @@ $font-color: #95989A;
             box-shadow: $hover-box-shadow;
       }
 
+      .img-div{
+            margin-top: 20px;
+      }
+
       .img-circle {
           border-radius: 50%;
           width: 175px;
@@ -18,7 +22,7 @@ $font-color: #95989A;
       }
 
       h2{
-            color: $font-color; 
+            color: $font-color;
       }
 
 }
